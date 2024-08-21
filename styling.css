@@ -32,6 +32,11 @@ nav{
     padding: 0em ;
 }
 
+#nvdirli1{
+    display: inline-block;
+    padding: 0em ;
+}
+
 #link{
     display: flex;
     justify-content: space-between;
@@ -102,3 +107,74 @@ h1{
     font-weight: normal;
 }
 
+#CCinfomobile{
+    display: none;
+    color: #FFFFFF;
+    font-size: 0.7em;
+    font-weight: normal;
+}
+
+@media screen and (max-width:877px){
+    html
+    {
+        height: 100%;
+    }
+    *
+    {
+        padding: 3%;
+        overflow:hidden;
+        transition: ease-in-out 0.1s;
+    }
+    #Main
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+    }
+    #navdir
+    {
+        padding: 0%;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        padding: 1rem;
+    }
+    #CCinfo 
+    {
+        display: none;
+        padding: 0px;
+    }
+    #link1
+    {
+        font-size: 0.7rem;
+        color: #ffffff;
+        border-radius: 0.5rem;
+        width: 55px;
+    }
+    #plaintext1
+    {
+        display: block;
+        size: 1em;
+        display: none;
+    }
+    #CCinfomobile
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        bottom: 1rem;
+        top: auto;
+        font-size: 0.4rem;
+    }
+    #bottomnav{
+        font-size: 0.63em;
+        position: fixed; 
+        bottom: 0px;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
