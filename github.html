@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>NRLTDBNTK [github]</title>
+    <link rel="stylesheet" href="stylinggithub.css">
+</head>
+<body>
+    <nav>
+        <ul id= 'navdir'>
+            <li id="nvdirli"><a href="index.html", id="link">UNRELATEDBENTOK</a></li>
+        </ul>
+    
+        <span><a href="https://github.com/atalentedbirb", style="text-decoration: none; size: 2rem; color: #FFFFFF;">Github</a></span>    
+    </nav>
+
+    <center>
+    <div class="Projects">
+        <h1>[Projects]</h1>
+        <ul>
+            <li><a href="https://github.com/atalentedbirb/File-Manager">Windows File Manager [Python]</a></li>
+            <li><a href="https://github.com/atalentedbirb/DenCrypter">Vigenère Encryptor/Decryptor [Python]</a></li>
+            <li><a href="index.html">This Website [HTML+CSS]</a></li>
+        </ul>
+    </div>
+    </center
+    
+    <nav id="bottomnav">
+        <center><p id="datetime"></p></center>
+    <script>
+    // Get current date and time
+    function updateDateTime() {
+        const now = new Date();
+        const dateTimeString = now.toLocaleString(); // Format the date and time as a string
+        document.getElementById('datetime').innerText = dateTimeString;
+    }
+    
+    // Update the date and time immediately on page load
+    updateDateTime();
+    
+    // Optionally, update the time every second
+    setInterval(updateDateTime, 1000);
+    </script>    
+    </nav>
+</body>
+</html>

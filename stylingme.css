@@ -1,0 +1,146 @@
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    /*size: 16px*/  
+    padding: 1rem 1.7rem 1.5rem 1.7rem;
+    background-color: #1D1C1E;
+    font-family: Helvetica;
+    font-weight: normal;
+    height: auto;
+    width: auto;
+}
+
+body{
+    font-size: 16px;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+#navdir{
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'PPRI';
+    src: url('Fonts/PPFragment-SerifRegularItalic.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+}
+
+#nvdirli{
+    display: inline-block;
+    padding: 0em ;
+    font-size: 3vw;
+}
+
+#link{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    padding: 0rem;
+    color: #FFFFFF;
+    transition: ease-in-out 0.5s;
+    font-family: 'PPRI';
+}
+
+#link:hover{
+    color: #f9a2f6
+}
+
+/*for the footer*/
+
+#datetime{
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    font-weight: normal;
+    padding-top: 7%;
+    padding-bottom: auto;
+    margin-bottom: auto;
+    position:static;
+}
+
+/*Myself*/
+
+@font-face {
+    font-family: 'PPR';
+    src: url('Fonts/PPFragment-SerifRegular.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+}
+
+
+.myself{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 0px;
+}
+
+.myself h1{
+    padding: 10rem 0rem;
+    transition: ease-in-out 0.5s;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'PPR';
+}
+
+.descs h1{
+    font-family: Helvetica, Arial;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding:0% 0% 7% 0%;
+    align-items: center;
+}
+
+.descs p{
+    font-size: 1rem;
+    display: grid;
+    padding: 0%;
+    text-align: left;
+}
+
+#linky
+{
+    text-decoration: none;
+    color: #f9a2f6;
+    padding: 0% 0% 0% ;
+}
+
+.descs
+{
+    display: flex;
+    list-style: none;
+    margin-right: 0;
+    margin-left: auto; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
+
+#datetime
+{
+    font-family: 'Roboto Mono', monospace;
+}
+
+#bottomnav
+{
+    bottom: 1%;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,85 @@
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    /*size: 16px*/  
+    padding: 1rem 1.7rem 1.5rem 1.7rem;
+    background-color: #1D1C1E;
+    font-family: Helvetica;
+    font-weight: normal;
+    height: auto;
+    width: auto;
+}
+
+body{
+    font-size: 16px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+#navdir{
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'PPRI';
+    src: url('Fonts/PPFragment-SerifRegularItalic.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+}
+
+#nvdirli{
+    display: inline-block;
+    padding: 0em ;
+    font-size: 3vw;
+}
+
+#link{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    padding: 0rem;
+    color: #FFFFFF;
+    transition: ease-in-out 0.5s;
+    font-family: 'PPRI';
+}
+
+#link:hover{
+    color: #f9a2f6
+}
+
+#plaintext1{
+    size: 2rem;
+    color: #FFFFFF;
+    cursor: default ;
+}
+
+/*for the footer*/
+
+#CCinfo{
+    color: #FFFFFF;
+    font-size: 2vh;
+    font-weight: normal;
+}
+
+/*this is where the real magic happens*/
+.mycards{
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap;
+    margin-inline: auto;
+}
+
+img{
+    max-width: 100%; 
+    max-height: 100%;
+}

@@ -1,0 +1,104 @@
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    /*size: 16px*/  
+    padding: 1rem 1.7rem 1rem 1.7rem;
+    background-color: #1D1C1E;
+    font-family: Helvetica, Arial;
+    height: auto;
+    width: auto;
+}
+
+body{
+    font-size: 16px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+#navdir{
+    list-style: none;
+}
+
+#nvdirli{
+    display: inline-block;
+    padding: 0em ;
+}
+
+#link{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    padding: 0.5rem;
+    color: #FFFFFF;
+    transition: ease-in-out 0.5s;
+}
+
+#link:hover{
+    color: #f9a2f6
+}
+
+#plaintext1{
+    size: 2rem;
+    color: #FFFFFF;
+    cursor: default ;
+}
+
+/*for the main showpiece*/
+
+@font-face {
+    font-family: 'PPRI';
+    src: url('Fonts/PPFragment-SerifRegularItalic.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+}
+
+#Main{
+    padding: 10rem 0rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+h1{
+    font-family: 'PPRI', 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    font-size: 6vw;    
+}
+
+/*for the footer*/
+
+#bottomnav{
+    font-size: 0.73em;
+}
+
+#link1{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    padding: 0.5rem;
+    color: #FFFFFF;
+    transition: ease-in-out 0.5s;
+}
+
+#link1:hover{
+    color: #1DA1F2;
+}
+
+#CCinfo{
+    color: #FFFFFF;
+    font-size: 0.7em;
+    font-weight: normal;
+}
+

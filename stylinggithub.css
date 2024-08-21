@@ -1,0 +1,127 @@
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    /*size: 16px*/  
+    padding: 1rem 1.7rem 1.5rem 1.7rem;
+    background-color: #1D1C1E;
+    font-family: Helvetica;
+    font-weight: normal;
+    height: auto;
+    width: auto;
+}
+
+body{
+    font-size: 16px;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+#navdir{
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'PPRI';
+    src: url('Fonts/PPFragment-SerifRegularItalic.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+}
+
+#nvdirli{
+    display: inline-block;
+    padding: 0em ;
+    font-size: 3vw;
+}
+
+#link{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    padding: 0rem;
+    color: #FFFFFF;
+    transition: ease-in-out 0.5s;
+    font-family: 'PPRI';
+}
+
+#link:hover{
+    color: #f9a2f6
+}
+
+/*for the footer*/
+
+#datetime{
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    font-weight: normal;
+    padding-top: 7%;
+    padding-bottom: auto;
+    margin-bottom: auto;
+    position:static;
+}
+
+/*githubmenu*/
+
+@font-face {
+    font-family: 'RBBOLD';
+    src: url('Fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+}
+
+.Projects{
+    color: #E3A6E1;
+    padding: 5.5rem 2rem 4vw 2rem;
+}
+
+.Projects h1{
+    font-family: 'RBBOLD', monospace;
+    font-size: 0.9rem;
+}
+
+.Projects ul
+{
+    list-style: none;
+    margin: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
+
+.Projects li{
+    margin: none;
+    padding: 0px;
+}
+
+.Projects a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: ease-out 0.3s;
+}
+
+.Projects a:hover{
+    color: #f9a2f6;
+}
+
+#datetime
+{
+    font-family: 'Roboto Mono', monospace;
+}
